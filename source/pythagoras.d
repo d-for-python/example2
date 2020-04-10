@@ -8,5 +8,6 @@ void main() {
   double leg1 = 10.2;
   double leg2 = 7.31;
   double hypotenuse = pythagoras(leg1, leg2);
+  import std.stdio;
   writeln("Hypotenuse = ", hypotenuse);
 }
